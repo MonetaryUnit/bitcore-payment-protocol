@@ -38,17 +38,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-payment-protocol.git"
+    "url": "https://github.com/MonetaryUnit/bitcore-payment-protocol.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=0.4.1",
-    "bitcore": "^0.12.0",
+    "bitcore": "MonetaryUnit/bitcore#MUE",
     "jsrsasign": "=0.0.3",
     "protobufjs": "=3.0.0"
   },
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "bitcore-build": "MonetaryUnit/bitcore-build#MUE",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
